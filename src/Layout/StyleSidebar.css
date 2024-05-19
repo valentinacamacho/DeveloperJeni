@@ -1,0 +1,83 @@
+:root {
+    --clr: #040c24;
+    --background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='247' height='247' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d23d09' fill-opacity='0.94'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.94'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    --clrClear: #ff4000;
+    --background-img2:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='204' height='204' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d23d09' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    --clrDear:#ca7300;
+  }
+  
+  .Navbar-Vertical {
+    float: right;
+  }
+  
+  ul {
+    position: relative;
+  }
+  
+  ul li {
+    position: relative;
+    list-style: none;
+    width: 150px;
+    min-height: 30px;
+    padding: 20px;
+    background: var(--clr);
+    z-index: 3;
+    transition: 0.5s;
+  }
+  
+  ul li:hover {
+    background: var(--clrClear);
+    transform: translateX(-30px);
+  }
+  
+  ul li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 20px;
+    height: 100%;
+    background: var(--clr);
+    background-image: var(--background-image);
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 0.5s;
+  }
+  
+  ul li:hover::before {
+    background: var(--clrClear);
+    background-image: var(--background-img2);
+  }
+  
+  ul li::after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: var(--clr);
+    background-image: var(--background-image);
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+  }
+  
+  ul li:hover::after {
+    background: var(--clrClear);
+    background-image: var(--background-img2);
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #999;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+  }
+  
+  ul li:hover a {
+    color: #fff;
+  }
+  

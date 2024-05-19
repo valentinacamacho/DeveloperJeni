@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@200&display=swap");
+
+:root {
+  --background-orange: #FF7A00 ;
+  --background-trans:#040412 ;
+}
+
+body {
+  background-color: #040c24;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='86' height='86' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23020a23' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.Container-Principal{
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items:start;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+}
+
+.Wel-Prin{
+  color: #fff;
+  width: 500px;
+  font-size: 15px;
+  font-family: "Aleo";
+  font-weight: bold;
+}
+
+.info-Prin{
+  color: #FF7A00;
+  font-family: "Aleo";
+  font-size: 20px;
+  width: 450px;
+  font-weight: 700;
+}
+
+.btn-Prin{
+margin-top: 40px;
+}
+
+a{
+  position: relative;
+  background: var( --background-trans);
+  color: #fff;
+  text-decoration: none;
+  font-family: "Aleo";
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 7px;
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  transition: 0.5s;
+}
+
+a:hover{
+  letter-spacing: 0.25em;
+  background: var(--background-orange);
+  color: var(--background-orange);
+  box-shadow: 0 0 35px var(--background-orange);
+}
+
+a::before{
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: var( --background-trans);
+}
+
+a span{
+  position: relative;
+  z-index: 1;
+}
+
+a i{
+  position: absolute;
+  inset:0;
+  display: block;
+}
+
+a i::before{
+  content:'';
+  position: absolute;
+  top:-3.5px;
+  left: 80%;
+  width: 20px;
+  height: 5px;
+  border-radius: 2px;
+  border:1px solid var(--background-orange);
+  background: var( --background-trans);
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+a:hover i::before{
+  width: 20px;
+  left: 20%;
+}
+
+a i::after{
+  content:'';
+  position: absolute;
+  bottom:-3.5px;
+  left: 20%;
+  width: 20px;
+  height: 5px;
+  border-radius: 2px;
+  border:2px solid var(--background-orange);
+  background: var( --background-trans);
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+a:hover i::after{
+  width: 20px;
+  left: 80%;
+}
+
