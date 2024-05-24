@@ -17,8 +17,8 @@ function PagesPrincipal() {
         </p>
       </div>
       <div className="btn-Prin">
-        <Link to="/Home">
-          <span>visualiza mi portafolio</span>
+      <Link to="/Welcome" aria-label="Visualiza mi portafolio">
+          <span>Visualiza mi portafolio</span>
           <i></i>
         </Link>
       </div>
