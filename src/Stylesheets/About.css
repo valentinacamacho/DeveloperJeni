@@ -63,3 +63,29 @@
 .btn-Aboutme button:hover {
   background-color: #0056b3;
 }
+
+.btn-Aboutme span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-Aboutme span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+
+.btn-Aboutme:hover span {
+  padding-right: 25px;
+}
+
+.btn-Aboutme:hover span:after {
+  opacity: 1;
+  right: 0;
+}

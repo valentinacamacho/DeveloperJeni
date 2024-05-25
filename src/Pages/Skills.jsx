@@ -1,4 +1,4 @@
-function Skills() {
+function Skills(){
   return (
     <div>
 

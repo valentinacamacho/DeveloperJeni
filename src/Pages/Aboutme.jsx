@@ -16,7 +16,7 @@ function Aboutme() {
             <p>Aspiro ampliar mis conocimientos y habilidades dentro de una entidad que me brinde la oportunidad de desarrollar mis habilidades de manera amplia y al mismo tiempo contribuir al crecimiento competitivo de la empresa.</p>
             <div className="btn-Aboutme">
               <a href={Documento} target="_blank" rel="noopener noreferrer">
-                <button>Visualiza mi CV</button>
+                <button><span>Visualiza mi CV</span></button>
               </a>
             </div>
           </div>
