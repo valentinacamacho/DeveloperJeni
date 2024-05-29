@@ -107,4 +107,8 @@ body {
   .titulo-3 {
     top: 30px;
   }
+
+  .quote {
+   width: 400px;
+  }
 }

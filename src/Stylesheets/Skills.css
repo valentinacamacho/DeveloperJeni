@@ -81,8 +81,6 @@
   filter: drop-shadow(0 0 10px #ffffffb3);
 }
 
-
-/* Media query para pantallas más pequeñas */
 @media (max-width: 1200px) {
   .container-skills {
     grid-template-columns: repeat(5, 1fr);
@@ -97,12 +95,14 @@
 
 @media (max-width: 768px) {
   .container-skills {
+    margin-top: 600px;
     grid-template-columns: repeat(3, 1fr); 
   }
 }
 
 @media (max-width: 576px) {
   .container-skills {
+    margin-top: 600px;
     grid-template-columns: repeat(2, 1fr); 
   }
 }
