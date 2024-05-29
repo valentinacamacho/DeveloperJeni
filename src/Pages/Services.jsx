@@ -10,6 +10,9 @@ function Services() {
   return (
 
     <div className="container">
+      <div className='titulo'>
+        <h1>Mis servicios</h1>
+      </div>
       <ServiceCard
         iconservices={MdAnalytics}
         titlecard={"Analisis y diseño"}

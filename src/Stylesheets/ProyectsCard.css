@@ -8,7 +8,7 @@
   margin: 16px;
   transition: transform 0.2s, box-shadow 0.2s;
   position: relative;
-  width: 50%; 
+  width: 40%; 
   display: flex; 
 }
 
@@ -157,17 +157,47 @@
 }
 
 .container-project {
-  width: 80%; 
-  margin: 0 auto; 
+  margin: 0 auto;
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 20px; 
 }
 
+.titulo {
+  margin: 30px;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #ddd;
+}
 
-@media (max-width: 600px) {
+.titulo:hover {
+  color: #0087f5;
+}
+
+.titulo::after {
+  content: "\1F916";
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%) translateX(5px);
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.titulo:hover::after {
+  opacity: 1; 
+  transform: translateY(-50%) translateX(0); 
+}
+
+@media (max-width: 760px) {
   .card {
-    width: 100%;
+    width: 90%;
     height: auto;
     flex-direction: column;
   }
@@ -179,17 +209,17 @@
   }
 
   .content {
-    width: 100%;
+    width: 90%;
     padding: 16px;
   }
 
   .title {
     font-size: 1.2em;
-    margin: 12px 0 6px;
+    margin: 12px;
   }
 
   .description {
-    width: 80%;
+    width: 100%;
     font-size: 0.9em;
     margin: 0 auto;
   }

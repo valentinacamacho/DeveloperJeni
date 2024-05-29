@@ -6,6 +6,9 @@ import Avatar from "../assets/Images/Avatar.png";
 function Aboutme() {
   return (
     <div className="contenedor">
+      <div className='titulo-2'>
+        <h1>Aboutme </h1>
+      </div>
       <div className="rectangulo">
         <div className="contenido">
           <div className="avatar-general">

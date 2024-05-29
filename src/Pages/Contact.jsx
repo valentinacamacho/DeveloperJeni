@@ -6,6 +6,9 @@ import { MdOutgoingMail } from "react-icons/md";
 function Contact() {
   return (
     <div className="contact-container">
+      <div className='titulo-3'>
+        <h1>Contactame ... </h1>
+      </div>
       <div className="quote">
         <p>Llegar juntos es el principio. Mantenerse juntos, es el progreso. Trabajar juntos es el éxito</p>
         <p className="author">- Henry Ford</p>

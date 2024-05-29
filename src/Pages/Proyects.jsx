@@ -12,6 +12,9 @@ function Proyects() {
   const methodologyIconsProject3 = [FaFigma,FaReact,FaHtml5,FaCss3Alt,BiLogoBootstrap]
   return (
     <div className='container-project'>
+      <div className='titulo'>
+        <h1>Mis Proyectos </h1>
+      </div>
       <ProyectsCard
         image={Pro2}
         title="Nik’os Cupcakes"
