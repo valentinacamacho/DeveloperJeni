@@ -8,6 +8,12 @@
   
   .Navbar-Vertical {
     float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh; /* Para ocupar toda la altura de la página */
+    position: relative;
   }
   
   ul {

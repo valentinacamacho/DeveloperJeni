@@ -26,10 +26,10 @@
 }
 
 .cuadrado {
-  background-color: gainsboro;
+  background-color: rgb(20, 0, 39);
   width: 130px;
   height: 130px;
-  border: 1px solid black;
+  border: 1px solid rgb(197, 3, 197);
   position: relative;
 }
 
@@ -63,7 +63,7 @@
 .skill-text {
   font-size: 18px; 
   font-weight: bold; 
-  color: #333; 
+  color: #dfdede; 
 }
 
 .hovered-icon {

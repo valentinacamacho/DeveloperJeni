@@ -6,9 +6,6 @@ function Sidebar() {
     <div className="Navbar-Vertical">
       <ul>
         <li>
-          <a><Link to="/Welcome">Welcome</Link></a>
-        </li>
-        <li>
           <a><Link to="/Home">Home</Link></a>
         </li>
         <li>

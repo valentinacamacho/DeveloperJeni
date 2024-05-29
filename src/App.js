@@ -8,11 +8,12 @@ import Skills from "./Pages/Skills";
 import Contact from "./Pages/Contact";
 import Sidebar from "./Layout/Sidebar";
 
+
 function App() {
   return (
     <div className="App">
     <Sidebar/>
-      <Routes>       
+      <Routes>
         <Route path="/Home" element={<Home />} />
         <Route path="/Aboutme" element={<Aboutme />} />
         <Route path="/Services" element={<Services />} />
