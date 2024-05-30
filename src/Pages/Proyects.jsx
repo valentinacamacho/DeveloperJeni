@@ -29,7 +29,7 @@ function Proyects() {
       <ProyectsCard
         image={Pro2}
         title="Nik’os Cupcakes"
-        description="Nico's Cupcakes ofrece tortas, cupcakes y paletas personalizadas para ocasiones especiales, brindando momentos gratos llenos de sabores."
+        description="Nico's Cupcakes es una pagina de 'shopping cart' donde ofrece tortas, cupcakes y paletas personalizadas para ocasiones especiales, brindando momentos gratos llenos de sabores."
         projectUrl="https://nicos-cupcakes.vercel.app/"
         githubUrl="https://github.com/valentinacamacho/nicoscupcakes"
         methodologyIcons={methodologyIconsProject3}
@@ -38,7 +38,7 @@ function Proyects() {
       <ProyectsCard
         image={Pro3}
         title="To-Do-List"
-        description="To-Do-List es donde puedes agregar una lista de tareas o ideas, donde permite gestionar de agregar y eliminar una lista."
+        description="To-Do-List es donde puedes agregar una lista de tareas o ideas, donde permite gestionar agregar y eliminar una lista."
         projectUrl="https://to-do-list-peach-sigma.vercel.app/"
         githubUrl="https://github.com/valentinacamacho/To-do-list"
         methodologyIcons={methodologyIconsProject2}

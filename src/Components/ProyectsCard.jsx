@@ -25,7 +25,7 @@ function ProyectsCard({ image, title, description, projectUrl, githubUrl, method
       <p className="description">{description}</p>
       <div className="details">
         <p className="clickable" onClick={() => setShowTech(!showTech)}>
-          Metodologías <span className={`arrow-icon ${showTech ? 'up' : 'down'}`}></span>
+          Tecnologías <span className={`arrow-icon ${showTech ? 'up' : 'down'}`}></span>
         </p>
         {showTech && (
           <div className="tech-icons">
