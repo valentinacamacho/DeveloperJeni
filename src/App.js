@@ -1,4 +1,4 @@
-import {Route,Routes} from "react-router";
+import { Route, Routes, Navigate } from "react-router-dom";
 import React from "react";
 import Home from "./Pages/Home";
 import Aboutme from "./Pages/Aboutme";
@@ -8,14 +8,12 @@ import Skills from "./Pages/Skills";
 import Contact from "./Pages/Contact";
 import Sidebar from "./Layout/Sidebar";
 
-
-
 function App() {
   return (
     <div className="App">
-    <Sidebar/>
+      <Sidebar />
       <Routes>
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Navigate to="/Aboutme" />} />
         <Route path="/Aboutme" element={<Aboutme />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Proyects" element={<Proyects />} />

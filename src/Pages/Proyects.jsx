@@ -5,6 +5,7 @@ import ProyectsCard from '../Components/ProyectsCard';
 import Pro1 from "../assets/Images/SabujCha.png";
 import Pro2 from "../assets/Images/Nicos.png";
 import Pro3 from "../assets/Images/todolist.png";
+import Pro4 from "../assets/Images/Miproyect.png";
 
 function Proyects() {
   const methodologyIconsProject1 = [FaHtml5, FaCss3Alt];
@@ -15,6 +16,16 @@ function Proyects() {
       <div className='titulo'>
         <h1>Mis Proyectos </h1>
       </div>
+
+      <ProyectsCard
+        image={Pro4}
+        title="Mi portafolio"
+        description="Mi portafolio es una muestra personalizada de mis diseños. En este proyecto, quiero exhibir tanto mis habilidades como los proyectos que he realizado. Espero que disfruten explorando mi trabajo tanto como yo disfruté creándolo."
+        projectUrl="https://developer-jeni-bj96.vercel.app/"
+        githubUrl="https://github.com/valentinacamacho/DeveloperJeni"
+        methodologyIcons={methodologyIconsProject3}
+      />
+
       <ProyectsCard
         image={Pro2}
         title="Nik’os Cupcakes"
