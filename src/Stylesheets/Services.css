@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   gap: 16px;
   min-height: 80vh;
+  margin:30px;
 }
 
 .flip-card {
