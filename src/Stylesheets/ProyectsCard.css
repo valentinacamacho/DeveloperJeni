@@ -267,7 +267,7 @@
     opacity: 0;
     transition: opacity 0.2s, visibility 0.2s;
     position: absolute;
-    top: 20px;
+    margin-top: 40px;
     white-space: nowrap;
   }
 }
