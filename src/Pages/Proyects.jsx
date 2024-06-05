@@ -3,7 +3,7 @@ import "../Stylesheets/ProyectsCard.css"
 import { FaFigma, FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { BiLogoBootstrap, BiLogoPhp } from "react-icons/bi";
 import { TbSql } from "react-icons/tb";
-import { DiMongodb } from "react-icons/di";
+import { SiMongodb } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
 import ProyectsCard from '../Components/ProyectsCard';
 import Pro1 from "../assets/Images/SabujCha.png";
@@ -24,7 +24,7 @@ function Proyects() {
       description: "Mi portafolio es una muestra personalizada de mis diseños. En este proyecto, quiero exhibir tanto mis habilidades como los proyectos que he realizado. Espero que disfruten explorando mi trabajo tanto como yo disfruté creándolo.",
       projectUrl: "https://developer-jeni-bj96.vercel.app/",
       githubUrl: "https://github.com/valentinacamacho/DeveloperJeni",
-      methodologyIcons: [FaHtml5, FaCss3Alt, BiLogoBootstrap, BiLogoPhp, TbSql],
+      methodologyIcons: [FaReact,FaHtml5, FaCss3Alt, BiLogoBootstrap],
       type: 'individual'
     },
     {
@@ -42,7 +42,7 @@ function Proyects() {
       description: "To-Do-List es donde puedes agregar una lista de tareas o ideas, donde permite gestionar agregar y eliminar una lista.",
       projectUrl: "https://to-do-list-peach-sigma.vercel.app/",
       githubUrl: "https://github.com/valentinacamacho/To-do-list",
-      methodologyIcons: [FaFigma, FaReact, FaHtml5, FaCss3Alt],
+      methodologyIcons: [FaFigma, FaReact, FaHtml5, FaCss3Alt, SiMongodb, IoLogoNodejs],
       type: 'individual'
     },
     {
@@ -60,7 +60,7 @@ function Proyects() {
       description:"La ONG se dedica apasionadamente a la defensa de los derechos humanos, trabajando incansablemente por la igualdad social y de género con un enfoque diferencial. Su misión prioritaria es llevar a cabo intervenciones significativas en beneficio de niños, niñas, adolescentes y mujeres, reconociendo y abordando las distintas realidades y desafíos que enfrentan estos grupos en la sociedad.",
       proyectUrl:"https://corpohypatia.vercel.app/",
       githubUrl:"https://github.com/programateacademy/5-Corpohypatiapatia-Corpohypatia-Front-end",
-      methodologyIcons:[FaReact, FaHtml5, FaCss3Alt, BiLogoBootstrap, IoLogoNodejs, DiMongodb],
+      methodologyIcons:[FaReact, FaHtml5, FaCss3Alt, BiLogoBootstrap, IoLogoNodejs, SiMongodb],
       type:'group'
     },
     {
