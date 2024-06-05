@@ -37,6 +37,15 @@ function Proyects() {
       type: 'individual'
     },
     {
+      image: Pro5,
+      title: "Corpohypatia",
+      description:"La ONG se dedica apasionadamente a la defensa de los derechos humanos, trabajando incansablemente por la igualdad social y de género con un enfoque diferencial. Su misión prioritaria es llevar a cabo intervenciones significativas en beneficio de niños, niñas, adolescentes y mujeres, reconociendo y abordando las distintas realidades y desafíos que enfrentan estos grupos en la sociedad.",
+      projectUrl: "https://corpohypatia.vercel.app/",
+      githubUrl:"https://github.com/programateacademy/5-Corpohypatiapatia-Corpohypatia-Front-end",
+      methodologyIcons:[FaReact, FaHtml5, FaCss3Alt, BiLogoBootstrap, IoLogoNodejs, SiMongodb],
+      type:'group'
+    },
+    {
       image: Pro3,
       title: "To-Do-List",
       description: "To-Do-List es donde puedes agregar una lista de tareas o ideas, donde permite gestionar agregar y eliminar una lista.",
@@ -54,15 +63,7 @@ function Proyects() {
       methodologyIcons: [FaHtml5, FaCss3Alt],
       type: 'individual'
     },
-    {
-      image: Pro5,
-      title: "Corpohypatia",
-      description:"La ONG se dedica apasionadamente a la defensa de los derechos humanos, trabajando incansablemente por la igualdad social y de género con un enfoque diferencial. Su misión prioritaria es llevar a cabo intervenciones significativas en beneficio de niños, niñas, adolescentes y mujeres, reconociendo y abordando las distintas realidades y desafíos que enfrentan estos grupos en la sociedad.",
-      proyectUrl:"https://corpohypatia.vercel.app/",
-      githubUrl:"https://github.com/programateacademy/5-Corpohypatiapatia-Corpohypatia-Front-end",
-      methodologyIcons:[FaReact, FaHtml5, FaCss3Alt, BiLogoBootstrap, IoLogoNodejs, SiMongodb],
-      type:'group'
-    },
+ 
     {
       image: Pro6,
       title: "Hotelía",
