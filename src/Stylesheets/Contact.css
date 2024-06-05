@@ -111,4 +111,8 @@ body {
   .quote {
    width: 400px;
   }
+
+  .icon-con{
+    margin-right: 20px;
+  }
 }
