@@ -21,19 +21,19 @@ function Sidebar() {
             <a><Link to="/Home">Home</Link></a>
           </li> */}
           <li>
-            <a><Link to="/Aboutme">About</Link></a>
+            <a><Link to="/Aboutme">Sobre mi</Link></a>
           </li>
           <li>
-            <a><Link to="/Services">Services</Link></a>
+            <a><Link to="/Services">servicios</Link></a>
           </li>
           <li>
-            <a><Link to="/Proyects">Proyects</Link></a>
+            <a><Link to="/Proyects">Proyectos</Link></a>
           </li>
           <li>
-            <a><Link to="/Skills">Skills</Link></a>
+            <a><Link to="/Skills">Habilidades</Link></a>
           </li>
           <li>
-            <a><Link to="/Contact">Contact</Link></a>
+            <a><Link to="/Contact">Contactame</Link></a>
           </li>
         </ul>
       </div>

@@ -7,7 +7,7 @@ function Aboutme() {
   return (
     <div className="contenedor">
       <div className='titulo-2'>
-        <h1>Aboutme </h1>
+        <h1>Sobre mi </h1>
       </div>
       <div className="rectangulo">
         <div className="contenido">
