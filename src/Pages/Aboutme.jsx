@@ -1,6 +1,6 @@
 import React from "react";
 import "../Stylesheets/About.css";
-import Documento from "../assets/Document/CV-Jenifer-Valentina-Camacho-Abril.pdf";
+import Documento from "../assets/Document/src/assets/Document/Hoja_de_Vida-Jenifer_Camacho.pdf";
 import Avatar from "../assets/Images/Avatar.png";
 
 function Aboutme() {
